@@ -3,6 +3,7 @@
 - Install node and npm (in case if you haven't).
 - Open terminal and navigate to the folder and execute below commands.
 - `npm install`
+- install mockserver (https://www.npmjs.com/package/mockserver)
 - `mockserver -p 9000 -m mocks`
 - That should start a mock server and should show as below.
 - Mockserver serving mocks {verbose:true} under `mocks` at `http://localhost:9000`
