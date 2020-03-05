@@ -1,0 +1,14 @@
+FROM node:13-alpine
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN npm install
+
+RUN npm install -g mockserver 
+
+
+EXPOSE 3000
+CMD [ "tail -f /dev/null" ]
+

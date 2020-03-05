@@ -14,5 +14,12 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "mockserver": "^1.7.0"
-  }
+  },
+  "devDependencies": {
+    "mockserver-node": "^5.9.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/DevopsAsIaC/frontend-homework-assignment.git"
+}
 }
